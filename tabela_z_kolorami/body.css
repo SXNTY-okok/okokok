@@ -1,0 +1,40 @@
+body {
+    background-color: powderblue;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.color-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.color-cell {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+.color-cell a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.red { background-color: red; --text-color: white; }
+.yellow { background-color: yellow; --text-color: black; }
+.blue { background-color: blue; --text-color: white; }
+.green { background-color: green; --text-color: white; }
+.gold { background-color: gold; --text-color: black; }
+.silver { background-color: silver; --text-color: black; }
+.gray { background-color: gray; --text-color: white; }
+.maroon { background-color: maroon; --text-color: white; }
+.purple { background-color: purple; --text-color: white; }
+.fuchsia { background-color: fuchsia; --text-color: white; }
+.lime { background-color: lime; --text-color: black; }
+.cyan { background-color: cyan; --text-color: black; }
+.teal { background-color: teal; --text-color: white; }
